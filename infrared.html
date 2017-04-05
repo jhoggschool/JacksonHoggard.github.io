@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Microwaves</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 850px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">EM</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="radiowaves.html">Radio Waves</a></li>
+        <li class="active"><a href="microwaves.html">Microwaves</a></li>
+        <li><a href="infrared.html">Infrared</a></li>
+        <li><a href="visiblelight.html">Visible Light</a></li>
+        <li><a href="ultravioletrays.html">Ultraviolet Rays</a></li>
+        <li><a href="xrays.html">X-Rays</a></li>
+        <li><a href="gammarays.html">Gamma Rays</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="http://www.livescience.com/50259-microwaves.html">What are Microwaves?</a></p>
+      <p><a href="https://science.hq.nasa.gov/kids/imagers/ems/micro.html">NASA and Microwaves</a></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1>Microwaves</h1>
+      <p>Microwaves have frequencies ranging from about 3 gigahertz up to about 30 trillion hertz, and wavelengths of about 30 centimeters to 3 millimeters. This means that they have the shortest wavelength and the highest frequency of the electromagnetic spectrum.</p>
+      <hr>
+      <h3>Microwave Diagram</h3>
+      <img src="https://science.hq.nasa.gov/kids/imagers/ems/microw.gif">
+      <h1>How Microwaves Are Used</h1>
+      <h3>Internet</h3>
+      <p>Both mobile phones and WiFi use microwaves to transmit information.</p>
+      <h3>Speed Detection</h3>
+      <p>Microwaves used by fixed traffic speed cameras, and for radar, which is used by aircraft, ships and weather forcasters.</p>
+      <h3>Food</h3>
+      <p>Microwaves are used to heat food quickly.</p>
+      <hr>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Microwaves</p>
+</footer>
+
+</body>
+</html>
